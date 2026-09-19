@@ -1,0 +1,24 @@
+# Model Configuration
+model:
+  num_classes: 2
+  input_size: 224
+  batch_size: 32
+  learning_rate: 0.001
+
+# Training
+training:
+  epochs: 50
+  random_seed: 42
+  device: cuda  # or cpu
+
+# Data Split
+data:
+  train_split: 0.70
+  val_split: 0.15
+  test_split: 0.15
+
+# Augmentation
+augmentation:
+  rotate: 20
+  horizontal_flip: true
+  brightness_contrast: true
