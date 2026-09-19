@@ -31,3 +31,5 @@ Place in `data/raw/`
 - `src/` - Source code (models, training scripts)
 - `results/` - Saved models and plots
 - `reports/` - Final report
+# SE4050-Deep_Learning_Assignment
+Deep Learning Assignment
